@@ -105,7 +105,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Аттракцион:</v8:content>
+							<v8:content>Тип билета:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -113,13 +113,37 @@
 			<c>
 				<c>
 					<f>9</f>
-					<parameter>Аттракцион</parameter>
+					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>5</index>
+		<row>
+			<columnsID>9c324573-ae2c-4801-bd41-0366750b320a</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество посещений:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>10</f>
+					<parameter>КоличествоПосещений</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
 		<row>
 			<columnsID>9c324573-ae2c-4801-bd41-0366750b320a</columnsID>
 			<c>
@@ -136,15 +160,15 @@
 			</c>
 			<c>
 				<c>
-					<f>10</f>
+					<f>11</f>
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<height>6</height>
-	<vgRows>6</vgRows>
+	<height>7</height>
+	<vgRows>7</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -179,7 +203,7 @@
 		<width>640</width>
 	</format>
 	<format>
-		<width>131</width>
+		<width>154</width>
 	</format>
 	<format>
 		<width>144</width>
@@ -219,6 +243,14 @@
 				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
+		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Block</textPlacement>
+		<fillType>Parameter</fillType>
+		<format/>
 		<autoIndent>0</autoIndent>
 	</format>
 </document>
